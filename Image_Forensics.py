@@ -4,7 +4,7 @@ import numpy as np
 import scipy
 import matplotlib.pyplot as plt
 
-im1 = picarray.imread ('234.png')
+im1 = picarray.imread ('test.png')
 im2 = color.rgb2gray(im1) 
 
 H = im2.shape[0]
