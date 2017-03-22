@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python 
+# -*- coding: utf-8 -*-
 __author__ = "Michael Tsai"
 '''
 The program first loads the image and converts it into grayscale, and obtain an array composed by numbers, which are pixel values for
