@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 __author__ = "Michael Tsai"
 '''
-This script using
+The program first loads the image and converts it into grayscale, and obtain an array composed by numbers, which are pixel values for
+each pixel. Basically, the values of the pixels which were duplicated will remain the same as the original parts in the image.
+The program will automatically detect if there are two or more areas has the same pixel values, and then the result illustration where are the
+duplication parts and their locations in a new image. 
 '''
 import matplotlib.image as picarray
 from skimage import color 
