@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+__author__ = "Michael Tsai"
+'''
+This script using
+'''
 import matplotlib.image as picarray
 from skimage import color 
 import numpy as np
